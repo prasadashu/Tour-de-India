@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tour de India</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_first_fragment">FirstFragment</string>
+    <string name="title_activity_second_fragment">SecondFragment</string>
+    <string name="title_activity_third_fragment">ThirdFragment</string>
+    <string name="title_activity_package_display">PackageDisplay</string>
+</resources>

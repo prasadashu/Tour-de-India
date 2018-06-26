@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#36b4d4">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/umed">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:background="@drawable/umed">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="Umed Sharma"
+                android:textSize="30sp"
+                android:textColor="@color/colorBlank"
+                android:layout_marginLeft="20dp"/>
+
+        </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/umed_desc"
+            android:layout_below="@id/umed"
+            android:text="Tour de India was a dream of 16 years of rich experience of Umed who worked with different nationalities as a tour leader, guide and escort.\n\nHis close observation during his extensive years of travel has rendered him with the knowledge which provides the tourists, the best experience of the trip.\n\nHis wisdom has inspired many to revisit India and as such have strongly recommended him.\n\nHe sincerely awaits to welcome you to this LAND OF VIBRANT CULTURE, HERITAGE AND MUCH MORE BEYOND YOUR IMAGINATION "
+            android:textSize="22sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorBlank"/>
+
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="2dp"
+             android:id="@+id/umed_seperator"
+             android:layout_below="@id/umed_desc"
+             android:background="@color/colorBlank"
+             android:layout_marginTop="10dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/memories"
+               android:text="Memories..."
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:textColor="@color/colorBlank"
+               android:layout_below="@id/umed_seperator"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="10dp"/>
+
+           <ImageView
+               android:layout_width="365dp"
+               android:layout_height="230dp"
+               android:id="@+id/pic_1"
+               android:src="@drawable/pic_1"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_below="@id/memories"/>
+
+           <ImageView
+               android:layout_width="365dp"
+               android:layout_height="230dp"
+               android:id="@+id/pic_2"
+               android:src="@drawable/pic_2"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_below="@id/pic_1"/>
+
+           <ImageView
+               android:layout_width="365dp"
+               android:layout_height="230dp"
+               android:id="@+id/pic_3"
+               android:src="@drawable/pic_3"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_below="@id/pic_2"/>
+
+           <ImageView
+               android:layout_width="365dp"
+               android:layout_height="230dp"
+               android:id="@+id/pic_4"
+               android:src="@drawable/pic_4"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_below="@id/pic_3"/>
+
+           <ImageView
+               android:layout_width="365dp"
+               android:layout_height="230dp"
+               android:id="@+id/pic_5"
+               android:src="@drawable/pic_5"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_below="@id/pic_4"/>
+
+           <ImageView
+               android:layout_width="365dp"
+               android:layout_height="230dp"
+               android:id="@+id/pic_6"
+               android:src="@drawable/pic_6"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_below="@id/pic_5"/>
+
+           <ImageView
+               android:layout_width="365dp"
+               android:layout_height="230dp"
+               android:id="@+id/pic_7"
+               android:src="@drawable/pic_7"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_below="@id/pic_6"/>
+
+           <ImageView
+               android:layout_width="365dp"
+               android:layout_height="230dp"
+               android:id="@+id/pic_8"
+               android:src="@drawable/pic_8"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_below="@id/pic_7"/>
+
+           <ImageView
+               android:layout_width="365dp"
+               android:layout_height="230dp"
+               android:id="@+id/pic_9"
+               android:src="@drawable/pic_9"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_below="@id/pic_8"/>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="2dp"
+               android:id="@+id/img_seperator"
+               android:layout_below="@id/pic_9"
+               android:background="@color/colorBlank"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/Callus_text"
+               android:layout_below="@id/img_seperator"
+               android:text="Have any questions?"
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:textColor="@color/colorBlank"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="10dp"/>
+
+           <Button
+               android:layout_width="365dp"
+               android:layout_height="100dp"
+               android:id="@+id/callus"
+               android:layout_below="@id/Callus_text"
+               android:background="@drawable/question"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:text="Call us"
+               android:textSize="30dp"
+               android:textColor="@color/colorBlank"
+               android:onClick="callus"/>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/review_text"
+               android:text="Write a review"
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:textColor="@color/colorBlank"
+               android:layout_below="@id/callus"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="10dp"/>
+
+           <Button
+               android:layout_width="365dp"
+               android:layout_height="100dp"
+               android:id="@+id/feedback"
+               android:background="@drawable/reviews"
+               android:textSize="30dp"
+               android:textColor="@color/colorBlank"
+               android:layout_below="@id/review_text"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:onClick="review"/>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/feedback"
+               android:layout_marginTop="20dp"/>
+
+
+
+       </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

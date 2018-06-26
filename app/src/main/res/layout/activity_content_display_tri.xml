@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_content_display_tri"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#36b4d4"
+    tools:context="com.example.ashu.tlt.ContentDisplayTri">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/package_card">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/golden_triangle">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Golden Triangle"
+                android:textSize="35sp"
+                android:textColor="#ffffff"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/textView2" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/package_title"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="18sp"
+        android:text="Delhi Agra Jaipur\nExtra night in Karauli"
+        android:textColor="#ffffff"
+        android:layout_below="@id/package_card"/>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/dura1"
+        android:layout_marginRight="20dp"
+        android:id="@+id/imageView"
+        android:layout_below="@id/package_card"
+        android:layout_alignRight="@+id/package_title"
+        android:layout_alignParentRight="true"/>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/seperator1"
+        android:layout_below="@id/imageView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DescriptionzTextTitle1"
+        android:layout_below="@id/seperator1"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:text="Delhi •"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DescriptionzText1"
+        android:layout_below="@id/DescriptionzTextTitle1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="Explore the largest mosque in India\n\nWalk through the narrow lanes and witness the ethnicity and authenticity of Old Delhi\n\nFurther walk through the spice market where one will be moved at every step to take a photo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DescriptionzTextTitle2"
+        android:layout_below="@id/DescriptionzText1"
+        android:text="Agra •"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DescriptionzText2"
+        android:layout_below="@id/DescriptionzTextTitle2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="Explore the ancient capital of India housing the most beautiful remenants of the Mughals\n\nWitness the grandeur of Taj Mahal, the world famous monumnent of love\n\nExplore the Agra fort"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DescriptionzTextTitle3"
+        android:layout_below="@id/DescriptionzText2"
+        android:text="Jaipur •"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DescriptionzText3"
+        android:layout_below="@id/DescriptionzTextTitle3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="Savour the royalty of the erstwhile Maharajas\n\nDelve into the Ember Fort"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/seperator2"
+        android:layout_below="@id/DescriptionzText3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tri_call"
+        android:text="Give us a call"
+        android:ems="9"
+        android:layout_below="@id/seperator2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="#f4f412"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tri_call"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
+
+</ScrollView>

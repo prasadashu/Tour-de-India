@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_content_display"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashu.tlt.ContentDisplay"
+    android:background="#36b4d4">
+    
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/package_card">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/kerala">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kerala"
+                android:textSize="35sp"
+                android:textColor="#ffffff"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/textView2" />
+
+        </RelativeLayout>
+        
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/package_title"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="18sp"
+        android:text="Munnar Kumarakom\nThekkady Allepey"
+        android:textColor="#ffffff"
+        android:layout_below="@id/package_card"/>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/dura1"
+        android:layout_marginRight="20dp"
+        android:id="@+id/imageView"
+        android:layout_below="@id/package_card"
+        android:layout_alignRight="@+id/package_title"
+        android:layout_alignParentRight="true"/>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/seperator1"
+        android:layout_below="@id/imageView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DescriptionzTextTitle1"
+        android:layout_below="@id/seperator1"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:text="Munnar •"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DescriptionzText1"
+        android:layout_below="@id/DescriptionzTextTitle1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="Visit the Eravikulam National Park\n\nWalk through the Old Munnar town and the town market\n\nEnjoy the view of the Mattupetty Dam and Dairy farm\n"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DescriptionzTextTitle2"
+        android:layout_below="@id/DescriptionzText1"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:text="Thekkady •"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DescriptionzText2"
+        android:layout_below="@id/DescriptionzTextTitle2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="Enjoy the boat cruise in the Periyar Wild Life Sanctury\n"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DescriptionzTextTitle3"
+        android:layout_below="@id/DescriptionzText2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:text="Kumarakom •"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DescriptionzText3"
+        android:layout_below="@id/DescriptionzTextTitle3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="Cruise through the backwaters"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/seperator2"
+        android:layout_below="@id/DescriptionzText3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/krl_call"
+        android:text="Give us a call"
+        android:ems="9"
+        android:layout_below="@id/seperator2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="#f4f412"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/krl_call"
+        android:layout_marginTop="20dp"/>
+
+
+</RelativeLayout>
+</ScrollView>
